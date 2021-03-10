@@ -6,7 +6,7 @@ function App() {
   return (
     // <Fragment> to render, we can use React.Fragment, Fragment or <></>
       <>
-    <h1>Snake Game</h1>
+    <h1 class="title">Snake Game</h1>
     <div class="scoreDisplay"></div>
     <div class="grid"></div>
     <div class="button">
