@@ -1,10 +1,11 @@
 
 import './App.css';
-import React from 'react'
+import React,{Component, Fragment} from 'react'
 
 function App() {
   return (
-    <React.Fragment>
+    // <Fragment> to render, we can use React.Fragment, Fragment or <></>
+      <>
     <h1>Snake Game</h1>
     <div class="scoreDisplay"></div>
     <div class="grid"></div>
@@ -17,8 +18,8 @@ function App() {
     <div class="popup">
         <button class="playAgain">Play Again</button>
     </div>
-    </React.Fragment>
-    
+    {/* </Fragment> */}
+    </>
   );
 }
 
